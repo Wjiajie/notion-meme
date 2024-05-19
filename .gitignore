@@ -37,4 +37,6 @@ yarn-error.log*
 .vercel
 public/robots.txt
 public/sitemap.xml
-.env*.local
+
+# dev-only files
+/blog.config.js

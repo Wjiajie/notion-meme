@@ -17,12 +17,6 @@ const UtterancesComponent = dynamic(
   },
   { ssr: false }
 )
-const CusdisComponent = dynamic(
-  () => {
-    return import('react-cusdis').then(m => m.ReactCusdis)
-  },
-  { ssr: false }
-)
 
 const Comments = ({ frontMatter }) => {
   const router = useRouter()
@@ -53,19 +47,6 @@ const Comments = ({ frontMatter }) => {
       )}
       {BLOG.comment && BLOG.comment.provider === 'utterances' && (
         <UtterancesComponent issueTerm={frontMatter.id} />
-      )}
-      {BLOG.comment && BLOG.comment.provider === 'cusdis' && (
-        <CusdisComponent
-          lang={fetchCusdisLang(BLOG.lang)}
-          attrs={{
-            host: BLOG.comment.cusdisConfig.host,
-            appId: BLOG.comment.cusdisConfig.appId,
-            pageId: frontMatter.id,
-            pageTitle: frontMatter.title,
-            pageUrl: BLOG.link + router.asPath,
-            theme: BLOG.appearance
-          }}
-        />
       )}
     </div>
   )
