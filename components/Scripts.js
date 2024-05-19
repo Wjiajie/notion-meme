@@ -6,7 +6,7 @@ const Scripts = () => {
 
   return (
     <>
-      {BLOG.analytics && BLOG.analytics.provider === 'ga' && (
+      {BLOG?.analytics && BLOG?.analytics?.provider === 'ga' && (
         <>
           <Script
             src={`https://www.googletagmanager.com/gtag/js?id=${BLOG.analytics.gaConfig.measurementId}`}

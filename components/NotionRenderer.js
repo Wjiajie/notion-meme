@@ -108,10 +108,11 @@ const mapPageUrl = id => `https://www.notion.so/${id.replace(/-/g, '')}`
 export default function NotionRenderer (props) {
   const config = useConfig()
 
-  const font = {
-    'sans-serif': FONTS_SANS,
-    'serif': FONTS_SERIF
-  }[config.font]
+  const font = config && config.font ?
+    {
+      'sans-serif': FONTS_SANS,
+      'serif': FONTS_SERIF
+    }[config.font] : FONTS_SANS;
 
   // Mark block types to be custom rendered by appending a suffix
   if (props.recordMap) {
