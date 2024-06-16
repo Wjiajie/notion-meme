@@ -2,25 +2,25 @@ module.exports = {
   /* Site info */
 
   // Site title
-  title: 'CRAIGARY',
+  title: 'PONDER',
   // Site description, will be displayed next to the site title
-  description: 'This gonna be an awesome website.',
+  description: 'keep thinking, keep simple.',
   // Site URL
-  link: 'https://nobelium.vercel.app',
+  link: 'https://www.jiajiewu.top/',
   // Site creation year, will use the current year if unset
-  since: 2021,
+  since: 2024,
   // Author name
-  author: 'Craig Hart',
+  author: 'jiajiewu',
   // Author email, will determine the avatar returned by Gravatar
-  email: 'i@craigary.net',
+  email: 'jiajiewu233@gmail.com',
   // Author’s social account link, will become the link address of the author’s avatar
-  socialLink: 'https://twitter.com/craigaryhart',
+  socialLink: 'https://github.com/Wjiajie',
 
   /* Site preferences */
 
   // Site language, can be one of these:
   //   'en-US', 'zh-CN', 'zh-HK', 'zh-TW', 'ja-JP', 'es-ES'
-  lang: 'en-US',
+  lang: 'zh-CN',
   // Site time zone, will determine the time zone of article time (using IANA identifier format)
   // See https://en.wikipedia.org/wiki/List_of_tz_database_time_zones for all options
   timezone: 'Asia/Shanghai',
@@ -38,8 +38,14 @@ module.exports = {
   postsPerPage: 7,
   // Whether to sort posts by date
   sortByDate: false,
-  // Whether to display “About” link
+  // Whether to display "Zettelkasten" link
+  showZettelkasten: true,
+  // Whether to display "About" link
   showAbout: true,
+  // Whether to display "Feed" link
+  showFeed: true,
+  // Whether to display "Search" link
+  showSearch: true,
   // Always use a collapsed navigation bar
   autoCollapsedNavBar: false,
 
