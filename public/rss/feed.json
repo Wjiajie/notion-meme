@@ -1,0 +1,11 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "PONDER",
+    "home_page_url": "https://www.jiajiewu.top//",
+    "description": "keep thinking, keep simple.",
+    "author": {
+        "name": "jiajiewu",
+        "url": "https://www.jiajiewu.top/"
+    },
+    "items": []
+}

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://www.jiajiewu.top//</id>
+    <title>PONDER</title>
+    <updated>2024-06-16T16:58:54.470Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <author>
+        <name>jiajiewu</name>
+        <email>jiajiewu233@gmail.com</email>
+        <uri>https://www.jiajiewu.top/</uri>
+    </author>
+    <link rel="alternate" href="https://www.jiajiewu.top//"/>
+    <subtitle>keep thinking, keep simple.</subtitle>
+    <icon>https://www.jiajiewu.top//favicon.svg</icon>
+    <rights>All rights reserved 2024, jiajiewu</rights>
+</feed>
