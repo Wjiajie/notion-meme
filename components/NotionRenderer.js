@@ -120,15 +120,13 @@ const mapPageUrl = id => `https://www.notion.so/${id.replace(/-/g, '')}`
  * @param props - Anything that react-notion-x/NotionRenderer supports
  */
 export default function NotionRenderer (props) {
-  const [isClient, setIsClient] = useState(false)
+  const config = useConfig()
 
+  const [isClient, setIsClient] = useState(false)
   useEffect(() => {
     setIsClient(true)
   }, [])
-
   if (!isClient) return
-
-  const config = useConfig()
 
   const font = config && config.font ?
     {
