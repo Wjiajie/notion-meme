@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.jiajiewu.top//</id>
     <title>PONDER</title>
-    <updated>2024-06-16T16:58:54.470Z</updated>
+    <updated>2024-07-28T14:35:14.106Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>jiajiewu</name>
@@ -13,4 +13,10 @@
     <subtitle>keep thinking, keep simple.</subtitle>
     <icon>https://www.jiajiewu.top//favicon.svg</icon>
     <rights>All rights reserved 2024, jiajiewu</rights>
+    <entry>
+        <title type="html"><![CDATA[【译】财富创造的阶梯：逐步积累财富的路线图]]></title>
+        <id>https://www.jiajiewu.top//nathanbarry_wealth_creation</id>
+        <link href="https://www.jiajiewu.top//nathanbarry_wealth_creation"/>
+        <updated>2024-06-17T16:00:00.000Z</updated>
+    </entry>
 </feed>
