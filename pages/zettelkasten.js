@@ -1,4 +1,4 @@
-import Zettelkasten from '@/components/Zettelkasten'
+import Zettelkasten from '@/layouts/Zettelkasten'
 import { getAllPosts } from '@/lib/notion'
 
 export default function zettelkasten ({ posts }) {

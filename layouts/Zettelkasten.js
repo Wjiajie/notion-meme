@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import Container from '@/components/Container';
 import PropTypes from 'prop-types';
-import BlogPost from '@/components/BlogPost';
+import ZettelkastenPost from '@/components/ZettelkastenPost';
 
 const Zettelkasten = ({ posts }) => {
   const [zettelkastenPosts, setZettelkastenPosts] = useState([]);
@@ -39,7 +39,7 @@ const Zettelkasten = ({ posts }) => {
       {zettelkastenPosts.map(post => (
         <div key={post.id} style={getStyles(post.layer).style}
         class={getStyles(post.layer).className}>
-        <BlogPost key={post.id} post={post} />
+        <ZettelkastenPost post={post} />
         </div>
       ))}
     </Container>

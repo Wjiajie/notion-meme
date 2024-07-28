@@ -4,7 +4,7 @@
         <title>PONDER</title>
         <link>https://www.jiajiewu.top//</link>
         <description>keep thinking, keep simple.</description>
-        <lastBuildDate>Sun, 28 Jul 2024 15:08:43 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 28 Jul 2024 16:15:18 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
@@ -14,6 +14,12 @@
             <link>https://www.jiajiewu.top//nathanbarry_wealth_creation</link>
             <guid>https://www.jiajiewu.top//nathanbarry_wealth_creation</guid>
             <pubDate>Mon, 17 Jun 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一文简介C++智能指针]]></title>
+            <link>https://www.jiajiewu.top//cpp_smart_pointer</link>
+            <guid>https://www.jiajiewu.top//cpp_smart_pointer</guid>
+            <pubDate>Sat, 27 Jul 2024 16:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>
