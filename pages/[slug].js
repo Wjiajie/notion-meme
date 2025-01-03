@@ -37,35 +37,39 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
         fullWidth={fullWidth}
       />
 
-      {/* Back and Top */}
-      <div
-        className={cn(
-          'px-4 flex justify-between font-medium text-gray-500 dark:text-gray-400 my-5',
-          fullWidth ? 'md:px-24' : 'mx-auto max-w-2xl'
-        )}
-      >
-        <a>
-          <button
-            onClick={() => router.push(BLOG.path || '/')}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
-          >
-            ← {locale.POST.BACK}
-          </button>
-        </a>
-        <a>
-          <button
-            onClick={() => window.scrollTo({
-              top: 0,
-              behavior: 'smooth'
-            })}
-            className="mt-2 cursor-pointer hover:text-black dark:hover:text-gray-100"
-          >
-            ↑ {locale.POST.TOP}
-          </button>
-        </a>
-      </div>
+      {/* 操作按钮和评论区容器 */}
+      <div className={cn(
+        'flex flex-col px-4 md:px-6',
+        { 'lg:ml-[240px]': !fullWidth }
+      )}>
+        {/* Back and Top */}
+        <div
+          className={cn(
+            'flex font-medium text-gray-500 dark:text-gray-400 mb-8',
+            fullWidth ? '' : 'max-w-4xl lg:max-w-5xl xl:max-w-6xl 2xl:max-w-7xl'
+          )}
+        >
+          <a>
+            <button
+              onClick={() => router.push(BLOG.path || '/')}
+              className="px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
+            >
+              ← {locale.POST.BACK}
+            </button>
+          </a>
+        </div>
 
-      <Comments frontMatter={post} />
+        {/* 评论区 */}
+        <div className={cn(
+          'bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden mb-8',
+          'w-full',
+          fullWidth ? '' : 'max-w-4xl lg:max-w-5xl xl:max-w-6xl'
+        )}>
+          <div className="p-6">
+            <Comments frontMatter={post} />
+          </div>
+        </div>
+      </div>
     </Container>
   )
 }

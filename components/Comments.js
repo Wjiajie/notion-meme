@@ -50,7 +50,7 @@ const Comments = () => {
   return (
     <div
       id="comments"
-      className="px-4 font-medium text-gray-500 dark:text-gray-400 my-5 mx-auto max-w-2xl"
+      className="font-medium text-gray-500 dark:text-gray-400"
     />
   )
 }
