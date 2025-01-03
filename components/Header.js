@@ -4,6 +4,7 @@ import Image from 'next/image'
 import { useConfig } from '@/lib/config'
 import { useLocale } from '@/lib/locale'
 import useTheme from '@/lib/theme'
+import Switch from '@/components/Switch'
 
 const NavBar = () => {
   const BLOG = useConfig()
@@ -35,7 +36,7 @@ const NavBar = () => {
 
 export default function Header ({ navBarTitle, fullWidth }) {
   const BLOG = useConfig()
-  const { dark } = useTheme()
+  const { dark, toggleDarkMode } = useTheme()
 
   // Favicon
 
@@ -119,7 +120,14 @@ export default function Header ({ navBarTitle, fullWidth }) {
             onClick={handleClickHeader}
           />
         </div>
-        <NavBar />
+        <div className="flex items-NavBar">
+          <NavBar />
+          <Switch
+            className="ml-4"
+            checked={dark}
+            onChange={toggleDarkMode}
+          />
+        </div>
       </div>
     </>
   )
