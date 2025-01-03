@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.jiajiewu.top//</id>
     <title>PONDER</title>
-    <updated>2024-07-28T16:15:18.006Z</updated>
+    <updated>2025-01-03T14:35:29.607Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <author>
         <name>jiajiewu</name>
@@ -12,7 +12,59 @@
     <link rel="alternate" href="https://www.jiajiewu.top//"/>
     <subtitle>keep thinking, keep simple.</subtitle>
     <icon>https://www.jiajiewu.top//favicon.svg</icon>
-    <rights>All rights reserved 2024, jiajiewu</rights>
+    <rights>All rights reserved 2025, jiajiewu</rights>
+    <entry>
+        <title type="html"><![CDATA[【译】设计者的品味]]></title>
+        <id>https://www.jiajiewu.top//designers_taste</id>
+        <link href="https://www.jiajiewu.top//designers_taste"/>
+        <updated>2024-09-14T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[我的阅读、笔记、写作流程构建记录]]></title>
+        <id>https://www.jiajiewu.top//my_read_note_write_pipeline</id>
+        <link href="https://www.jiajiewu.top//my_read_note_write_pipeline"/>
+        <updated>2024-08-24T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【译】信息茧房自救指南]]></title>
+        <id>https://www.jiajiewu.top//information_cocoon_self_rescue_guide</id>
+        <link href="https://www.jiajiewu.top//information_cocoon_self_rescue_guide"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文简介C++智能指针]]></title>
+        <id>https://www.jiajiewu.top//cpp_smart_pointer</id>
+        <link href="https://www.jiajiewu.top//cpp_smart_pointer"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一文简介C++左/右值引用以及移动语义]]></title>
+        <id>https://www.jiajiewu.top//lvalue_rvalue_move_semantics</id>
+        <link href="https://www.jiajiewu.top//lvalue_rvalue_move_semantics"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【译】如何启动google]]></title>
+        <id>https://www.jiajiewu.top//how_to_start_google</id>
+        <link href="https://www.jiajiewu.top//how_to_start_google"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[这篇文章是Paul Graham在2024年3月给14至15岁青少年的一场演讲，主题是如何开始创业。文章强调了一个观点：避免传统就业的最佳方式是创办自己的公司。文章中提到，成功的创业需要三个要素：精通某项技术、有一个要构建的产品或服务的想法，以及至少一个合伙人。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【译】Tim Urban：如何选择真正适合你的职业？]]></title>
+        <id>https://www.jiajiewu.top//picking_career</id>
+        <link href="https://www.jiajiewu.top//picking_career"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[很多人在临终时回溯自己的一生，都充满着深深的后悔。很多后悔来自于童年，大部分人小时候并没有机会学习如何创造自己的路径。并且大多数人成年后依然不会创造自己的路径，所以才会在临终回顾时发现自己所走的路有多么荒诞。
+那我们该如何选择真正适合自己的路，并走得尽兴呢？
+作者Tim Urbun没有给出任何具体的建议，而是给我们提供了一个可行的思考框架。比起带有倾向性的建议，一个好的思维框架可以帮你摆脱社会的固有认知，选择真正适合自己的职业。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【译】如何为自己思考]]></title>
+        <id>https://www.jiajiewu.top//think_for_ourself</id>
+        <link href="https://www.jiajiewu.top//think_for_ourself"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
     <entry>
         <title type="html"><![CDATA[【译】财富创造的阶梯：逐步积累财富的路线图]]></title>
         <id>https://www.jiajiewu.top//nathanbarry_wealth_creation</id>
@@ -20,9 +72,143 @@
         <updated>2024-06-17T16:00:00.000Z</updated>
     </entry>
     <entry>
-        <title type="html"><![CDATA[一文简介C++智能指针]]></title>
-        <id>https://www.jiajiewu.top//cpp_smart_pointer</id>
-        <link href="https://www.jiajiewu.top//cpp_smart_pointer"/>
-        <updated>2024-07-27T16:00:00.000Z</updated>
+        <title type="html"><![CDATA[读《金钱心理学》]]></title>
+        <id>https://www.jiajiewu.top//money_psychology</id>
+        <link href="https://www.jiajiewu.top//money_psychology"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[【译】金钱是身份的放大器]]></title>
+        <id>https://www.jiajiewu.top//relationship_with_money_trans</id>
+        <link href="https://www.jiajiewu.top//relationship_with_money_trans"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[原作者是 Lawrence Yeo，英文原文可以通过这个[链接](https://moretothat.com/money/)阅读。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++设计模式]]></title>
+        <id>https://www.jiajiewu.top//cpp_design_pattern</id>
+        <link href="https://www.jiajiewu.top//cpp_design_pattern"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[“地图不是领土”：理解认知模型与现实的差异]]></title>
+        <id>https://www.jiajiewu.top//the_map_is_not_the_territory</id>
+        <link href="https://www.jiajiewu.top//the_map_is_not_the_territory"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[第一性原理]]></title>
+        <id>https://www.jiajiewu.top//first_principles</id>
+        <link href="https://www.jiajiewu.top//first_principles"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[第一性原理思维是一种学习为自己思考、解锁创造潜力、并从线性结果过渡到非线性结果的方法。通过第一性原理，我们可以将复杂问题分解为基本元素，然后从头开始重新组合它们，来逆向工程复杂问题并释放创造性潜力。这篇文章会介绍第一性原理的概念，了解增量思维和全量思维的区别，以及我们应该怎样合理运用第一性原理来实现目标。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[软件架构要点记录]]></title>
+        <id>https://www.jiajiewu.top//software_arch_note</id>
+        <link href="https://www.jiajiewu.top//software_arch_note"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[组件构建原则—组件聚合和耦合]]></title>
+        <id>https://www.jiajiewu.top//aggregation_and_coupling</id>
+        <link href="https://www.jiajiewu.top//aggregation_and_coupling"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[软件构建中层结构的设计原则--SOLID]]></title>
+        <id>https://www.jiajiewu.top//solid_intro</id>
+        <link href="https://www.jiajiewu.top//solid_intro"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cuda学习笔记1]]></title>
+        <id>https://www.jiajiewu.top//cuda_practice1</id>
+        <link href="https://www.jiajiewu.top//cuda_practice1"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cuda学习笔记2]]></title>
+        <id>https://www.jiajiewu.top//cuda_practice2</id>
+        <link href="https://www.jiajiewu.top//cuda_practice2"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cuda学习笔记3]]></title>
+        <id>https://www.jiajiewu.top//cuda_practice3</id>
+        <link href="https://www.jiajiewu.top//cuda_practice3"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cuda学习笔记4]]></title>
+        <id>https://www.jiajiewu.top//cuda_practice4</id>
+        <link href="https://www.jiajiewu.top//cuda_practice4"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[cuda学习笔记5]]></title>
+        <id>https://www.jiajiewu.top//cuda_practice5</id>
+        <link href="https://www.jiajiewu.top//cuda_practice5"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[《GPU并行计算与CUDA编程》学习笔记]]></title>
+        <id>https://www.jiajiewu.top//cuda_more</id>
+        <link href="https://www.jiajiewu.top//cuda_more"/>
+        <updated>2024-07-30T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[本文主要记录在学习《GPU并行计算与CUDA编程》过程中的知识要点，并且把跑过的代码统一放在cmake工程里面。
+关于cuda更具体的介绍，一个博客专题介绍的很好：
+CUDA从入门到入门
+对应的代码在： https://github.com/Tony-Tan/CUDA_Freshman]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Transformer简介]]></title>
+        <id>https://www.jiajiewu.top//transformer_intro</id>
+        <link href="https://www.jiajiewu.top//transformer_intro"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Swin Transformer总结]]></title>
+        <id>https://www.jiajiewu.top//swin_transformer_intro</id>
+        <link href="https://www.jiajiewu.top//swin_transformer_intro"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[排序算法总结]]></title>
+        <id>https://www.jiajiewu.top//sort_sumary</id>
+        <link href="https://www.jiajiewu.top//sort_sumary"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++ json库 性能比较]]></title>
+        <id>https://www.jiajiewu.top//json_compare</id>
+        <link href="https://www.jiajiewu.top//json_compare"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[C++面向对象总结-上]]></title>
+        <id>https://www.jiajiewu.top//oop_sumary</id>
+        <link href="https://www.jiajiewu.top//oop_sumary"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[记录侯捷老师C++面向对象课程[^1]: 百度网盘链接，提取码：kb9y的笔记。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用Emscripten编译C++至webassembly]]></title>
+        <id>https://www.jiajiewu.top//emscripten_intro</id>
+        <link href="https://www.jiajiewu.top//emscripten_intro"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+        <summary type="html"><![CDATA[最近我希望能将实现的python算子通过taichi封装后打包成C++静态库，结合C++代码形成应用，并希望这个应用能在web上自由地运行，用户不需要关心具体平台，登录任何小程序就可以体验到发布的程序，于是有了这篇文章的尝试。选择从C++编译至webassembly主要是出于性能上的考量，这条链路应该是一个比较成熟的方案了。]]></summary>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[利用coze使用和创建机器人]]></title>
+        <id>https://www.jiajiewu.top//build_bot_with_coze</id>
+        <link href="https://www.jiajiewu.top//build_bot_with_coze"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[VS Code智能补全插件Tabnine]]></title>
+        <id>https://www.jiajiewu.top//ai_tools_tabnine</id>
+        <link href="https://www.jiajiewu.top//ai_tools_tabnine"/>
+        <updated>2024-08-16T16:00:00.000Z</updated>
     </entry>
 </feed>

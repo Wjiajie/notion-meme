@@ -83,32 +83,14 @@ module.exports = {
   comment: {
     // Comment tool, can be one of these: (leave it empty to disable)
     //   'gitalk', 'utterances', 'cusdis'
-    provider: '',
-    // Gitalk configuration
-    gitalkConfig: {
-      // Repository name
-      repo: '',
-      // Repository owner
-      owner: '',
-      // Administrator
-      admin: [],
-      clientID: '',
-      clientSecret: '',
-      // Whether to enable distraction-free mode
-      distractionFreeMode: false
-    },
-    // Utterances configuration
+    provider: 'utterances',
     utterancesConfig: {
-      // Repository name
-      repo: ''
-    },
-    // Cusdis configuration
-    cusdisConfig: {
-      appId: '',
-      // Service address, only need to modify when using self-hosted service
-      host: 'https://cusdis.com',
-      // Script address, only need to modify when using self-hosted service
-      scriptSrc: 'https://cusdis.com/js/cusdis.es.js'
+      // 格式：用户名/仓库名
+      repo: 'Wjiajie/meme-blog-comments',
+      // 可选值：pathname, url, title, og:title
+      issueTerm: 'pathname',
+      // 可选值：github-light, github-dark, preferred-color-scheme
+      theme: 'preferred-color-scheme'
     }
   }
 }

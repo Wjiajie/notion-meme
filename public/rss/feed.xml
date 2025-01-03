@@ -4,11 +4,63 @@
         <title>PONDER</title>
         <link>https://www.jiajiewu.top//</link>
         <description>keep thinking, keep simple.</description>
-        <lastBuildDate>Sun, 28 Jul 2024 16:15:18 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 03 Jan 2025 14:35:29 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>zh-CN</language>
-        <copyright>All rights reserved 2024, jiajiewu</copyright>
+        <copyright>All rights reserved 2025, jiajiewu</copyright>
+        <item>
+            <title><![CDATA[【译】设计者的品味]]></title>
+            <link>https://www.jiajiewu.top//designers_taste</link>
+            <guid>https://www.jiajiewu.top//designers_taste</guid>
+            <pubDate>Sat, 14 Sep 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[我的阅读、笔记、写作流程构建记录]]></title>
+            <link>https://www.jiajiewu.top//my_read_note_write_pipeline</link>
+            <guid>https://www.jiajiewu.top//my_read_note_write_pipeline</guid>
+            <pubDate>Sat, 24 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【译】信息茧房自救指南]]></title>
+            <link>https://www.jiajiewu.top//information_cocoon_self_rescue_guide</link>
+            <guid>https://www.jiajiewu.top//information_cocoon_self_rescue_guide</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一文简介C++智能指针]]></title>
+            <link>https://www.jiajiewu.top//cpp_smart_pointer</link>
+            <guid>https://www.jiajiewu.top//cpp_smart_pointer</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[一文简介C++左/右值引用以及移动语义]]></title>
+            <link>https://www.jiajiewu.top//lvalue_rvalue_move_semantics</link>
+            <guid>https://www.jiajiewu.top//lvalue_rvalue_move_semantics</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【译】如何启动google]]></title>
+            <link>https://www.jiajiewu.top//how_to_start_google</link>
+            <guid>https://www.jiajiewu.top//how_to_start_google</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[这篇文章是Paul Graham在2024年3月给14至15岁青少年的一场演讲，主题是如何开始创业。文章强调了一个观点：避免传统就业的最佳方式是创办自己的公司。文章中提到，成功的创业需要三个要素：精通某项技术、有一个要构建的产品或服务的想法，以及至少一个合伙人。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【译】Tim Urban：如何选择真正适合你的职业？]]></title>
+            <link>https://www.jiajiewu.top//picking_career</link>
+            <guid>https://www.jiajiewu.top//picking_career</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[很多人在临终时回溯自己的一生，都充满着深深的后悔。很多后悔来自于童年，大部分人小时候并没有机会学习如何创造自己的路径。并且大多数人成年后依然不会创造自己的路径，所以才会在临终回顾时发现自己所走的路有多么荒诞。
+那我们该如何选择真正适合自己的路，并走得尽兴呢？
+作者Tim Urbun没有给出任何具体的建议，而是给我们提供了一个可行的思考框架。比起带有倾向性的建议，一个好的思维框架可以帮你摆脱社会的固有认知，选择真正适合自己的职业。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[【译】如何为自己思考]]></title>
+            <link>https://www.jiajiewu.top//think_for_ourself</link>
+            <guid>https://www.jiajiewu.top//think_for_ourself</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[【译】财富创造的阶梯：逐步积累财富的路线图]]></title>
             <link>https://www.jiajiewu.top//nathanbarry_wealth_creation</link>
@@ -16,10 +68,144 @@
             <pubDate>Mon, 17 Jun 2024 16:00:00 GMT</pubDate>
         </item>
         <item>
-            <title><![CDATA[一文简介C++智能指针]]></title>
-            <link>https://www.jiajiewu.top//cpp_smart_pointer</link>
-            <guid>https://www.jiajiewu.top//cpp_smart_pointer</guid>
-            <pubDate>Sat, 27 Jul 2024 16:00:00 GMT</pubDate>
+            <title><![CDATA[读《金钱心理学》]]></title>
+            <link>https://www.jiajiewu.top//money_psychology</link>
+            <guid>https://www.jiajiewu.top//money_psychology</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[【译】金钱是身份的放大器]]></title>
+            <link>https://www.jiajiewu.top//relationship_with_money_trans</link>
+            <guid>https://www.jiajiewu.top//relationship_with_money_trans</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[原作者是 Lawrence Yeo，英文原文可以通过这个[链接](https://moretothat.com/money/)阅读。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[C++设计模式]]></title>
+            <link>https://www.jiajiewu.top//cpp_design_pattern</link>
+            <guid>https://www.jiajiewu.top//cpp_design_pattern</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[“地图不是领土”：理解认知模型与现实的差异]]></title>
+            <link>https://www.jiajiewu.top//the_map_is_not_the_territory</link>
+            <guid>https://www.jiajiewu.top//the_map_is_not_the_territory</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[第一性原理]]></title>
+            <link>https://www.jiajiewu.top//first_principles</link>
+            <guid>https://www.jiajiewu.top//first_principles</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[第一性原理思维是一种学习为自己思考、解锁创造潜力、并从线性结果过渡到非线性结果的方法。通过第一性原理，我们可以将复杂问题分解为基本元素，然后从头开始重新组合它们，来逆向工程复杂问题并释放创造性潜力。这篇文章会介绍第一性原理的概念，了解增量思维和全量思维的区别，以及我们应该怎样合理运用第一性原理来实现目标。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[软件架构要点记录]]></title>
+            <link>https://www.jiajiewu.top//software_arch_note</link>
+            <guid>https://www.jiajiewu.top//software_arch_note</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[组件构建原则—组件聚合和耦合]]></title>
+            <link>https://www.jiajiewu.top//aggregation_and_coupling</link>
+            <guid>https://www.jiajiewu.top//aggregation_and_coupling</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[软件构建中层结构的设计原则--SOLID]]></title>
+            <link>https://www.jiajiewu.top//solid_intro</link>
+            <guid>https://www.jiajiewu.top//solid_intro</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cuda学习笔记1]]></title>
+            <link>https://www.jiajiewu.top//cuda_practice1</link>
+            <guid>https://www.jiajiewu.top//cuda_practice1</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cuda学习笔记2]]></title>
+            <link>https://www.jiajiewu.top//cuda_practice2</link>
+            <guid>https://www.jiajiewu.top//cuda_practice2</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cuda学习笔记3]]></title>
+            <link>https://www.jiajiewu.top//cuda_practice3</link>
+            <guid>https://www.jiajiewu.top//cuda_practice3</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cuda学习笔记4]]></title>
+            <link>https://www.jiajiewu.top//cuda_practice4</link>
+            <guid>https://www.jiajiewu.top//cuda_practice4</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[cuda学习笔记5]]></title>
+            <link>https://www.jiajiewu.top//cuda_practice5</link>
+            <guid>https://www.jiajiewu.top//cuda_practice5</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[《GPU并行计算与CUDA编程》学习笔记]]></title>
+            <link>https://www.jiajiewu.top//cuda_more</link>
+            <guid>https://www.jiajiewu.top//cuda_more</guid>
+            <pubDate>Tue, 30 Jul 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[本文主要记录在学习《GPU并行计算与CUDA编程》过程中的知识要点，并且把跑过的代码统一放在cmake工程里面。
+关于cuda更具体的介绍，一个博客专题介绍的很好：
+CUDA从入门到入门
+对应的代码在： https://github.com/Tony-Tan/CUDA_Freshman]]></description>
+        </item>
+        <item>
+            <title><![CDATA[Transformer简介]]></title>
+            <link>https://www.jiajiewu.top//transformer_intro</link>
+            <guid>https://www.jiajiewu.top//transformer_intro</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Swin Transformer总结]]></title>
+            <link>https://www.jiajiewu.top//swin_transformer_intro</link>
+            <guid>https://www.jiajiewu.top//swin_transformer_intro</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[排序算法总结]]></title>
+            <link>https://www.jiajiewu.top//sort_sumary</link>
+            <guid>https://www.jiajiewu.top//sort_sumary</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[C++ json库 性能比较]]></title>
+            <link>https://www.jiajiewu.top//json_compare</link>
+            <guid>https://www.jiajiewu.top//json_compare</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[C++面向对象总结-上]]></title>
+            <link>https://www.jiajiewu.top//oop_sumary</link>
+            <guid>https://www.jiajiewu.top//oop_sumary</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[记录侯捷老师C++面向对象课程[^1]: 百度网盘链接，提取码：kb9y的笔记。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[利用Emscripten编译C++至webassembly]]></title>
+            <link>https://www.jiajiewu.top//emscripten_intro</link>
+            <guid>https://www.jiajiewu.top//emscripten_intro</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+            <description><![CDATA[最近我希望能将实现的python算子通过taichi封装后打包成C++静态库，结合C++代码形成应用，并希望这个应用能在web上自由地运行，用户不需要关心具体平台，登录任何小程序就可以体验到发布的程序，于是有了这篇文章的尝试。选择从C++编译至webassembly主要是出于性能上的考量，这条链路应该是一个比较成熟的方案了。]]></description>
+        </item>
+        <item>
+            <title><![CDATA[利用coze使用和创建机器人]]></title>
+            <link>https://www.jiajiewu.top//build_bot_with_coze</link>
+            <guid>https://www.jiajiewu.top//build_bot_with_coze</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[VS Code智能补全插件Tabnine]]></title>
+            <link>https://www.jiajiewu.top//ai_tools_tabnine</link>
+            <guid>https://www.jiajiewu.top//ai_tools_tabnine</guid>
+            <pubDate>Fri, 16 Aug 2024 16:00:00 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -9,6 +9,64 @@
     },
     "items": [
         {
+            "id": "https://www.jiajiewu.top//designers_taste",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//designers_taste",
+            "title": "【译】设计者的品味",
+            "date_modified": "2024-09-14T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//my_read_note_write_pipeline",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//my_read_note_write_pipeline",
+            "title": "我的阅读、笔记、写作流程构建记录",
+            "date_modified": "2024-08-24T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//information_cocoon_self_rescue_guide",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//information_cocoon_self_rescue_guide",
+            "title": "【译】信息茧房自救指南",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cpp_smart_pointer",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cpp_smart_pointer",
+            "title": "一文简介C++智能指针",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//lvalue_rvalue_move_semantics",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//lvalue_rvalue_move_semantics",
+            "title": "一文简介C++左/右值引用以及移动语义",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//how_to_start_google",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//how_to_start_google",
+            "title": "【译】如何启动google",
+            "summary": "这篇文章是Paul Graham在2024年3月给14至15岁青少年的一场演讲，主题是如何开始创业。文章强调了一个观点：避免传统就业的最佳方式是创办自己的公司。文章中提到，成功的创业需要三个要素：精通某项技术、有一个要构建的产品或服务的想法，以及至少一个合伙人。",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//picking_career",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//picking_career",
+            "title": "【译】Tim Urban：如何选择真正适合你的职业？",
+            "summary": "很多人在临终时回溯自己的一生，都充满着深深的后悔。很多后悔来自于童年，大部分人小时候并没有机会学习如何创造自己的路径。并且大多数人成年后依然不会创造自己的路径，所以才会在临终回顾时发现自己所走的路有多么荒诞。\n那我们该如何选择真正适合自己的路，并走得尽兴呢？\n作者Tim Urbun没有给出任何具体的建议，而是给我们提供了一个可行的思考框架。比起带有倾向性的建议，一个好的思维框架可以帮你摆脱社会的固有认知，选择真正适合自己的职业。",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//think_for_ourself",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//think_for_ourself",
+            "title": "【译】如何为自己思考",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
             "id": "https://www.jiajiewu.top//nathanbarry_wealth_creation",
             "content_html": "",
             "url": "https://www.jiajiewu.top//nathanbarry_wealth_creation",
@@ -16,11 +74,163 @@
             "date_modified": "2024-06-17T16:00:00.000Z"
         },
         {
-            "id": "https://www.jiajiewu.top//cpp_smart_pointer",
+            "id": "https://www.jiajiewu.top//money_psychology",
             "content_html": "",
-            "url": "https://www.jiajiewu.top//cpp_smart_pointer",
-            "title": "一文简介C++智能指针",
-            "date_modified": "2024-07-27T16:00:00.000Z"
+            "url": "https://www.jiajiewu.top//money_psychology",
+            "title": "读《金钱心理学》",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//relationship_with_money_trans",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//relationship_with_money_trans",
+            "title": "【译】金钱是身份的放大器",
+            "summary": "原作者是 Lawrence Yeo，英文原文可以通过这个[链接](https://moretothat.com/money/)阅读。",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cpp_design_pattern",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cpp_design_pattern",
+            "title": "C++设计模式",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//the_map_is_not_the_territory",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//the_map_is_not_the_territory",
+            "title": "“地图不是领土”：理解认知模型与现实的差异",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//first_principles",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//first_principles",
+            "title": "第一性原理",
+            "summary": "第一性原理思维是一种学习为自己思考、解锁创造潜力、并从线性结果过渡到非线性结果的方法。通过第一性原理，我们可以将复杂问题分解为基本元素，然后从头开始重新组合它们，来逆向工程复杂问题并释放创造性潜力。这篇文章会介绍第一性原理的概念，了解增量思维和全量思维的区别，以及我们应该怎样合理运用第一性原理来实现目标。",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//software_arch_note",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//software_arch_note",
+            "title": "软件架构要点记录",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//aggregation_and_coupling",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//aggregation_and_coupling",
+            "title": "组件构建原则—组件聚合和耦合",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//solid_intro",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//solid_intro",
+            "title": "软件构建中层结构的设计原则--SOLID",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cuda_practice1",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cuda_practice1",
+            "title": "cuda学习笔记1",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cuda_practice2",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cuda_practice2",
+            "title": "cuda学习笔记2",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cuda_practice3",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cuda_practice3",
+            "title": "cuda学习笔记3",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cuda_practice4",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cuda_practice4",
+            "title": "cuda学习笔记4",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cuda_practice5",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cuda_practice5",
+            "title": "cuda学习笔记5",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//cuda_more",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//cuda_more",
+            "title": "《GPU并行计算与CUDA编程》学习笔记",
+            "summary": "本文主要记录在学习《GPU并行计算与CUDA编程》过程中的知识要点，并且把跑过的代码统一放在cmake工程里面。\n关于cuda更具体的介绍，一个博客专题介绍的很好：\nCUDA从入门到入门\n对应的代码在： https://github.com/Tony-Tan/CUDA_Freshman",
+            "date_modified": "2024-07-30T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//transformer_intro",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//transformer_intro",
+            "title": "Transformer简介",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//swin_transformer_intro",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//swin_transformer_intro",
+            "title": "Swin Transformer总结",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//sort_sumary",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//sort_sumary",
+            "title": "排序算法总结",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//json_compare",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//json_compare",
+            "title": "C++ json库 性能比较",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//oop_sumary",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//oop_sumary",
+            "title": "C++面向对象总结-上",
+            "summary": "记录侯捷老师C++面向对象课程[^1]: 百度网盘链接，提取码：kb9y的笔记。",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//emscripten_intro",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//emscripten_intro",
+            "title": "利用Emscripten编译C++至webassembly",
+            "summary": "最近我希望能将实现的python算子通过taichi封装后打包成C++静态库，结合C++代码形成应用，并希望这个应用能在web上自由地运行，用户不需要关心具体平台，登录任何小程序就可以体验到发布的程序，于是有了这篇文章的尝试。选择从C++编译至webassembly主要是出于性能上的考量，这条链路应该是一个比较成熟的方案了。",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//build_bot_with_coze",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//build_bot_with_coze",
+            "title": "利用coze使用和创建机器人",
+            "date_modified": "2024-08-16T16:00:00.000Z"
+        },
+        {
+            "id": "https://www.jiajiewu.top//ai_tools_tabnine",
+            "content_html": "",
+            "url": "https://www.jiajiewu.top//ai_tools_tabnine",
+            "title": "VS Code智能补全插件Tabnine",
+            "date_modified": "2024-08-16T16:00:00.000Z"
         }
     ]
 }
