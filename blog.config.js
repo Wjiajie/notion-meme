@@ -38,6 +38,8 @@ module.exports = {
   postsPerPage: 7,
   // Whether to sort posts by date
   sortByDate: false,
+  // Whether to enable pagination
+  enablePagination: false,
   // Whether to display "Zettelkasten" link
   showZettelkasten: true,
   // Whether to display "About" link

@@ -16,7 +16,16 @@ const Page = ({ postsToShow, page, showNext }) => {
 }
 
 export async function getStaticProps (context) {
-  const { page } = context.params // Get Current Page No.
+  if (!config.enablePagination) {
+    return {
+      redirect: {
+        destination: '/',
+        permanent: false
+      }
+    }
+  }
+
+  const { page } = context.params
   const posts = await getAllPosts({ includePages: false })
   const postsToShow = posts.slice(
     config.postsPerPage * (page - 1),
@@ -26,7 +35,7 @@ export async function getStaticProps (context) {
   const showNext = page * config.postsPerPage < totalPosts
   return {
     props: {
-      page, // Current Page
+      page,
       postsToShow,
       showNext
     },
@@ -36,10 +45,16 @@ export async function getStaticProps (context) {
 
 export async function getStaticPaths () {
   const posts = await getAllPosts({ includePages: false })
+  if (!config.enablePagination) {
+    return {
+      paths: [],
+      fallback: false
+    }
+  }
+
   const totalPosts = posts.length
   const totalPages = Math.ceil(totalPosts / config.postsPerPage)
   return {
-    // remove first page, we 're not gonna handle that.
     paths: Array.from({ length: totalPages - 1 }, (_, i) => ({
       params: { page: '' + (i + 2) }
     })),
