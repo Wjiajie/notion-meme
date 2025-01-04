@@ -25,67 +25,73 @@ export default function Post (props) {
   const { dark } = useTheme()
 
   return (
-    <article
-      className={cn(
-        'flex-1 flex flex-col px-4 md:px-6',
-        { 'lg:ml-[240px]': !fullWidth }
-      )}
-    >
+    <article className="flex-1 flex flex-col px-4 md:px-6">
       <div className={cn(
-        'bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden',
-        'mb-8',
-        'w-full',
-        fullWidth ? '' : 'max-w-4xl lg:max-w-5xl xl:max-w-6xl'
+        'lg:max-w-6xl lg:mx-auto w-full',
+        'relative'
       )}>
-        <h1 className={cn(
-          'w-full font-bold text-3xl text-black dark:text-white px-6 pt-6'
+        <div className={cn(
+          'order-first lg:w-[240px] flex-shrink-0',
+          'block',
+          'mb-6 lg:mb-0',
+          'lg:fixed',
+          'lg:top-[100px]',
+          'lg:h-[calc(100vh-100px)]',
+          'lg:overflow-y-auto'
         )}>
-          {post.title}
-        </h1>
-        {post.type[0] !== 'Page' && (
-          <nav className={cn(
-            'w-full flex mt-7 items-start text-gray-500 dark:text-gray-400 px-6'
-          )}>
-            <div className="flex mb-4">
-              <a href={BLOG.socialLink || '#'} className="flex">
-                <Image
-                  alt={BLOG.author}
-                  width={24}
-                  height={24}
-                  src={`https://gravatar.com/avatar/${emailHash}`}
-                  className="rounded-full"
-                />
-                <p className="ml-2 md:block">{BLOG.author}</p>
-              </a>
-              <span className="block">&nbsp;/&nbsp;</span>
-            </div>
-            <div className="mr-2 mb-4 md:ml-0">
-              <FormattedDate date={post.date} />
-            </div>
-            {post.tags && (
-              <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags">
-                {post.tags.map(tag => (
-                  <TagItem key={tag} tag={tag} />
-                ))}
-              </div>
-            )}
-          </nav>
-        )}
-        <div className="self-stretch flex flex-col lg:flex-row lg:items-stretch relative">
-          <div className={cn(
-            'order-first lg:order-[unset] w-full lg:w-[240px] lg:fixed lg:left-0 lg:top-[65px] lg:bottom-0 lg:overflow-y-auto',
-            'border-r border-gray-100 dark:border-gray-800'
-          )}>
-            <TableOfContents
-              blockMap={blockMap}
-              className="pt-3 px-4 md:px-6"
-            />
-          </div>
+          <TableOfContents
+            blockMap={blockMap}
+            className="lg:pr-4 px-6 lg:px-0"
+          />
+        </div>
 
+        <div className={cn(
+          'flex-grow max-w-4xl',
+          'lg:ml-[280px]',
+          'mt-0'
+        )}>
           <div className={cn(
-            'flex-1 px-6 pb-6'
+            'bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden',
+            'mb-8',
+            'w-full',
           )}>
-            <NotionRenderer recordMap={blockMap} fullPage={false} darkMode={dark} />
+            <h1 className={cn(
+              'w-full font-bold text-3xl text-black dark:text-white px-6 pt-6'
+            )}>
+              {post.title}
+            </h1>
+            {post.type[0] !== 'Page' && (
+              <nav className={cn(
+                'w-full flex mt-7 items-start text-gray-500 dark:text-gray-400 px-6'
+              )}>
+                <div className="flex mb-4">
+                  <a href={BLOG.socialLink || '#'} className="flex">
+                    <Image
+                      alt={BLOG.author}
+                      width={24}
+                      height={24}
+                      src={`https://gravatar.com/avatar/${emailHash}`}
+                      className="rounded-full"
+                    />
+                    <p className="ml-2 md:block">{BLOG.author}</p>
+                  </a>
+                  <span className="block">&nbsp;/&nbsp;</span>
+                </div>
+                <div className="mr-2 mb-4 md:ml-0">
+                  <FormattedDate date={post.date} />
+                </div>
+                {post.tags && (
+                  <div className="flex flex-nowrap max-w-full overflow-x-auto article-tags">
+                    {post.tags.map(tag => (
+                      <TagItem key={tag} tag={tag} />
+                    ))}
+                  </div>
+                )}
+              </nav>
+            )}
+            <div className="px-6 pb-6">
+              <NotionRenderer recordMap={blockMap} fullPage={false} darkMode={dark} />
+            </div>
           </div>
         </div>
       </div>
