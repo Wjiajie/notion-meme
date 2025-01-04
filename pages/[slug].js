@@ -1,4 +1,5 @@
 import { clientConfig } from '@/lib/server/config'
+import { getPageTableOfContents } from 'notion-utils'
 
 import { useRouter } from 'next/router'
 import cn from 'classnames'
@@ -15,10 +16,18 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
   const BLOG = useConfig()
   const locale = useLocale()
 
+  const commentWidthClass = `max-w-${BLOG.commentWidth}`
+
   // TODO: It would be better to render something
   if (router.isFallback) return null
 
   const fullWidth = post.fullWidth ?? false
+
+  // 获取目录内容
+  const collectionId = Object.keys(blockMap.collection)[0]
+  const page = Object.values(blockMap.block).find(block => block.value.parent_id === collectionId).value
+  const nodes = getPageTableOfContents(page, blockMap)
+  const hasTableOfContents = nodes.length > 0
 
   return (
     <Container
@@ -30,42 +39,44 @@ export default function BlogPost ({ post, blockMap, emailHash }) {
       type="article"
       fullWidth={fullWidth}
     >
-      <Post
-        post={post}
-        blockMap={blockMap}
-        emailHash={emailHash}
-        fullWidth={fullWidth}
-      />
-
-      {/* 操作按钮和评论区容器 */}
       <div className={cn(
         'flex flex-col px-4 md:px-6',
-        'lg:max-w-6xl lg:mx-auto w-full'
+        'lg:max-w-7xl lg:mx-auto'
       )}>
+        {/* 主要内容区域 */}
+        <Post
+          post={post}
+          blockMap={blockMap}
+          emailHash={emailHash}
+          fullWidth={fullWidth}
+        />
+
         {/* 右侧内容区域 */}
         <div className={cn(
-          'flex-grow max-w-4xl',
-          'lg:ml-[280px]'
+          'flex-grow',
+          commentWidthClass,
+          hasTableOfContents ? 'lg:ml-[280px]' : 'mx-auto'
         )}>
-          {/* Back and Top */}
-          <div className="flex font-medium text-gray-500 dark:text-gray-400 mb-8">
-            <a>
-              <button
-                onClick={() => router.push(BLOG.path || '/')}
-                className="px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
-              >
-                ← {locale.POST.BACK}
-              </button>
-            </a>
-          </div>
+          <div className="flex-grow">
+            {/* Back and Top */}
+            <div className="flex font-medium text-gray-500 dark:text-gray-400 mb-8">
+              <a>
+                <button
+                  onClick={() => router.push(BLOG.path || '/')}
+                  className="px-4 py-2 rounded-lg hover:bg-gray-100 dark:hover:bg-zinc-800 transition-colors"
+                >
+                  ← {locale.POST.BACK}
+                </button>
+              </a>
+            </div>
 
-          {/* 评论区 */}
-          <div className={cn(
-            'bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden mb-8',
-            'w-full'
-          )}>
-            <div className="p-6">
-              <Comments frontMatter={post} />
+            {/* 评论区 */}
+            <div className={cn(
+              'bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden mb-8',
+            )}>
+              <div className="p-6">
+                <Comments frontMatter={post} />
+              </div>
             </div>
           </div>
         </div>

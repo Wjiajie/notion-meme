@@ -7,6 +7,7 @@ import FormattedDate from '@/components/FormattedDate'
 import TagItem from '@/components/TagItem'
 import NotionRenderer from '@/components/NotionRenderer'
 import TableOfContents from '@/components/TableOfContents'
+import { getPageTableOfContents } from 'notion-utils'
 
 /**
  * A post renderer
@@ -24,36 +25,48 @@ export default function Post (props) {
   const { post, blockMap, emailHash, fullWidth = false } = props
   const { dark } = useTheme()
 
+  const articleWidthClass = `max-w-${BLOG.articleWidth}`
+
+  // 获取目录内容
+  const collectionId = Object.keys(blockMap.collection)[0]
+  const page = Object.values(blockMap.block).find(block => block.value.parent_id === collectionId).value
+  const nodes = getPageTableOfContents(page, blockMap)
+  const hasTableOfContents = nodes.length > 0
+
   return (
-    <article className="flex-1 flex flex-col px-4 md:px-6">
+    <article className="flex-1 flex flex-col">
       <div className={cn(
-        'lg:max-w-6xl lg:mx-auto w-full',
+        'w-full',
         'relative'
       )}>
-        <div className={cn(
-          'order-first lg:w-[240px] flex-shrink-0',
-          'block',
-          'mb-6 lg:mb-0',
-          'lg:fixed',
-          'lg:top-[100px]',
-          'lg:h-[calc(100vh-100px)]',
-          'lg:overflow-y-auto'
-        )}>
-          <TableOfContents
-            blockMap={blockMap}
-            className="lg:pr-4 px-6 lg:px-0"
-          />
-        </div>
+        {/* 只在有目录内容时显示目录 */}
+        {hasTableOfContents && (
+          <div className={cn(
+            'order-first lg:w-[240px] flex-shrink-0',
+            'block',
+            'mb-6 lg:mb-0',
+            'lg:fixed',
+            'lg:top-[100px]',
+            'lg:h-[calc(100vh-100px)]',
+            'lg:overflow-y-auto'
+          )}>
+            <TableOfContents
+              blockMap={blockMap}
+              className="lg:pr-4 px-6 lg:px-0"
+            />
+          </div>
+        )}
 
         <div className={cn(
-          'flex-grow max-w-4xl',
-          'lg:ml-[280px]',
+          'flex-grow',
+          articleWidthClass,
+          hasTableOfContents ? 'lg:ml-[280px]' : 'mx-auto',
           'mt-0'
         )}>
           <div className={cn(
             'bg-white dark:bg-zinc-900 rounded-lg shadow-md overflow-hidden',
             'mb-8',
-            'w-full',
+            'w-full'
           )}>
             <h1 className={cn(
               'w-full font-bold text-3xl text-black dark:text-white px-6 pt-6'

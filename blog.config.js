@@ -50,6 +50,10 @@ module.exports = {
   showSearch: true,
   // Always use a collapsed navigation bar
   autoCollapsedNavBar: false,
+  // Article content max width
+  articleWidth: '5xl', // 可选值：'3xl', '4xl', '5xl'
+  // Comment section max width
+  commentWidth: '5xl', // 可选值：'3xl', '4xl', '5xl'
 
   /* Technical config */
 
